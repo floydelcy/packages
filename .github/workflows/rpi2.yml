@@ -7,5 +7,5 @@ jobs:
     uses: pikvm/packages/.github/workflows/packages.yml@master
     with:
       BOARD: rpi2
-    secrets:
-      DEPLOY_KEY: "${{secrets.DEPLOY_KEY}}"
+    #secrets:
+    #  DEPLOY_KEY: "${{secrets.DEPLOY_KEY}}"
