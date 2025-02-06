@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   packages:
-    uses: pikvm/packages/.github/workflows/packages.yml@master
+    uses: floydelcy/packages/.github/workflows/packages.yml@master
     with:
       BOARD: rpi2
     #secrets:
